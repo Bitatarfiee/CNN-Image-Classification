@@ -11,7 +11,6 @@ Gaussian filter is used for denoising, Here we can see that by applying gaissian
 Sobel X & sobel Y are an spatial filter used for edge detection in horizontal and vertical directions respectively. Here we can see in second image the edge and features of image in horizontal axis better and in third image the edge and features of image in vertical axis.
  
 
->>>>>>> f0bbc471422ac4f26905f9e4f0e398ea9cf93946
 ## Data 
 Images used in this code are from CIFAR 10.
 CIFAR 10: The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes. The classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images in each class. 
