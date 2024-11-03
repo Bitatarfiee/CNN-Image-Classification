@@ -1,5 +1,6 @@
 # CNN-Image-Classification
 ## Description
+This is a part of the Neural network course elaboration.\
 Make an image classifier using a convolutional neural network.
 
 1. Define Gaussian filter, a Sobel X filter, and a Sobel Y filter:
