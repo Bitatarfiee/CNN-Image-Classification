@@ -1,14 +1,26 @@
 # CNN-Image-Classification
+## Description
+Make an image classifier using a convolutional neural network. 
 
-* Images used in this code are from CIFAR 10.
-CIFAR 10: The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class. 
-* Make a classifier, using a convolutional neural network
-# Data 
-https://en.wikipedia.org/wiki/CIFAR-10
+1. Define a Gaussian filter, a Sobel X filter, and a Sobel Y filter:\
+What do the three filters (Gaussian, SobelX, SobelY) do to the original image?\
+Gaussian filter is used for denoising, Here we can see that by applying gaissian filter to the image, the image is smoother than the original image.\
+Sobel X & sobel Y are spatial filters for edge detection in horizontal and vertical directions. Here, we can better see the edge and features of the image on the horizontal axis in the second image, and in the third image, the edge and features on the vertical axis.
 
-# Dependencies
 
-# Files
+## Data 
+Images used in this code are from CIFAR 10.
+CIFAR 10: The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes. The classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images in each class. 
+CIFAR-10 dataset: https://en.wikipedia.org/wiki/CIFAR-10
+
+## libes
+* from scipy import signal, misc 
+* import numpy as np
+* from keras.datasets import cifar10
+* from sklearn.model_selection import train_test_split
+* 
+
+## Files
 
 $ jupyter notebook
 Recommend install jupyter through anaconda here.
